@@ -256,30 +256,35 @@
                 <center>
                     <h2 class="category_head">Choose category</h2>
                 </center>
-                <div class="card">
-                    <div class="card-header">
-                        <img class="img_category" src="https://source.unsplash.com/1075x300/?beach" alt="">
-                    </div>
-                    <div class="card-body category_center">
+                <div class="card" style="position: relative; overflow: hidden;">
+                    <!-- Background Video -->
+                    <video autoplay muted loop playsinline style="position: absolute; top: 0; left: 0; min-width: 100%; min-height: 100%; object-fit: cover; z-index: 0;">
+                        <source src="./assests/beach.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                
+                    <!-- Content -->
+                    
+                    <div class="card-body category_center" style="position: relative; z-index: 1;">
                         <h5 class="card-title category_title">Beach</h5>
-                        <p class="card-text category_text">Search for beautiful beaches in india.🏖</p>
+                        <p class="card-text category_text">Search for beautiful beaches in India. 🏖</p>
                         <a href="beach.html" class="btn btn-primary">Check Out 🚀</a>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card-header">
-                        <img class="img_category" src="https://source.unsplash.com/1075x300/?forest" alt="">
-                    </div>
-                    <div class="card-body category_center">
+                
+                <div class="card" style="position: relative; overflow: hidden;">
+                    <video autoplay muted loop playsinline style="position: absolute; top: 0; left: 0; min-width: 100%; min-height: 100%; object-fit: cover; z-index: 0;">
+                        <source src="./assests/forest.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="card-body category_center" style="position: relative; z-index: 1;">
                         <h5 class="card-title category_title">Forests </h5>
                         <p class="card-text category_text">Enjoy the beautiful nature in forests.🌴</p>
                         <a href="forest.html" class="btn btn-primary">Check Out 🚀</a>
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card-header">
-                        <img class="img_category" src="https://source.unsplash.com/1075x300/?zoo,animals" alt="">
-                    </div>
+                   
                     <div class="card-body category_center">
                         <h5 class="card-title category_title">Zoo</h5>
                         <p class="card-text category_text">Watch the endangered species in our zoo's.🦏</p>
@@ -287,9 +292,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card-header">
-                        <img class="img_category" src="https://source.unsplash.com/1075x300/?waterfalls" alt="">
-                    </div>
+                    
                     <div class="card-body category_center">
                         <h5 class="card-title category_title">Water Falls</h5>
                         <p class="card-text category_text">Enjoy your holidays in cool water falls.🌊</p>
@@ -297,9 +300,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card-header">
-                        <img class="img_category" src="https://source.unsplash.com/1075x300/?temples" alt="">
-                    </div>
+                    
                     <div class="card-body category_center">
                         <h5 class="card-title category_title">Temples</h5>
                         <p class="card-text category_text">Show your devotion to god.🙏</p>
